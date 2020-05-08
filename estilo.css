@@ -1,0 +1,23 @@
+body{
+    background-image: url(images/Logo.png);
+}
+section{
+    border: 1px ;
+}
+h1{
+    color: rgb(122, 214, 60);
+    text-align: center;
+}
+h2{
+    background: burlywood;
+    color: white;
+}
+p{
+    color: tomato;
+}
+.sobremi{
+
+}
+.Profe{
+
+}
