@@ -1,30 +1,139 @@
 /*
 main
 */
+*{
+  box-sizing: content-box;
+}
+html{
+  font-size: 62.5%;
+}
+body{
+  color: white;
+  font-family: roboto;
+}
+h1{
+  font-size: 6.4rem;
+}
+h2{
+  font-size: 3.6rem;
+}
+h3{
+  font-size: 1.8rem;
+}
 .main {
+  width: 100%;
+  max-width: 960px;
+  color: white;
+  margin: auto;
 }
 
+.banner{
+  position: relative;
+}
+.banner h1{
+  position: absolute;
+  top: 46px;
+  width: 100%;
+  text-align: center;
+}
+.banner h2{
+  position: absolute;
+  bottom: 140px;
+  left: 52px;
+  padding: 24px 24px 24px 18px;
+  background-color: rgba(114, 153, 254, 0.5);
+  line-height: 1.3;
+}
+.banner img{
+  display: block;
+}
 /*
 my-skills
 */
 .my-skills {
   background-color: #7299fe;
+  padding: 40px 104px 60px;
 }
 
+.my-skills h2{
+  text-align: center;
+  margin-bottom: 26px;
+}
+
+.my-skills .item{
+  display: inline-block;
+  width: 47%;
+  margin-bottom: 20px;
+}
+
+.my-skills .item:nth-child(odd){
+  margin-right: -3px;
+  padding-right: 12px;
+}
+
+.my-skills .item:nth-child(even){
+  padding-left: 12px;
+}
+
+.my-skills .bar{
+  height: 18px;
+  background: white;
+}
+
+.my-skills .bar div{
+  height: 100%;
+  width: 80%;
+  background: black;
+}
+
+.my-skills h3{
+  margin-bottom: 8px;
+}
 /*
 services
 */
 .services {
   background-color: #fb7171;
+  padding: 40px 104px 60px;
 }
 
+.services h2{
+  text-align: center;
+  margin-bottom: 26px;
+}
+
+.services .img{
+  display: inline-block;
+  width: 30%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.services h3{
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
 /*
 portfolio
 */
 .portfolio {
   background-color: #ffd233;
+  padding-bottom: 60px;
 }
 
+.folio{
+  text-align: center;
+  padding: 40px 104px 60px;
+}
+
+.img .subimg {
+  display: inline-block;
+  width: 20%;
+  margin: 10px;
+  padding: 10px;
+   text-align: center;
+  
+}
 /*
 clients
 */
@@ -32,10 +141,22 @@ clients
   background-color: #3f4e62;
 }
 
+.clients h2{
+  text-align: center;
+  padding: 40px 104px 60px;
+}
 /*
 contact
 */
 .contact {
-  background-color: #7a7a7a;
+  background-color: #16a085;
+  padding: 40px 104px 60px;
 }
-© 2020 GitHub, Inc.
+
+.cont h2{
+  text-align: center;
+  padding: 40px 104px 60px;
+
+}
+
+

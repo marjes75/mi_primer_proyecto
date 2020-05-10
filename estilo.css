@@ -1,23 +1,42 @@
 body{
-    background-image: url(images/Logo.png);
+    background-image: url(images/fondo1.png);
+    
+}
+div {
+    text-align: center; margin:auto;
 }
 section{
     border: 1px ;
+    margin-bottom: 5px;
+    padding: 15px;
 }
 h1{
     color: rgb(122, 214, 60);
     text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 1px;
 }
 h2{
     background: burlywood;
     color: white;
 }
+h1,h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
 p{
-    color: tomato;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .sobremi{
 
 }
 .Profe{
 
+}
+.hobie{
+
+}
+
+section:hover{
+box-shadow: 0 0 10px blue;
 }
