@@ -99,6 +99,7 @@ services
 
 .services h2{
   text-align: center;
+  padding: 40px 104px 60px;
   margin-bottom: 26px;
 }
 
@@ -126,13 +127,14 @@ portfolio
   padding: 40px 104px 60px;
 }
 
-.img .subimg {
+.img1{
   display: inline-block;
-  width: 20%;
-  margin: 10px;
-  padding: 10px;
-   text-align: center;
-  
+  padding: 10px 100px 10px;
+}
+.subimg {
+  display: inline-block;
+  margin-left: 30px;
+  margin-right: 10px;
 }
 /*
 clients
@@ -143,7 +145,11 @@ clients
 
 .clients h2{
   text-align: center;
-  padding: 40px 104px 60px;
+  padding: 40px 104px 10px;
+}
+
+.clients .img{
+  padding: 40px 20px 60px;
 }
 /*
 contact
@@ -156,7 +162,32 @@ contact
 .cont h2{
   text-align: center;
   padding: 40px 104px 60px;
+}
 
+form input{
+  display: inline-block;
+  width: 48%;
+  height: 40px;
+  margin-bottom: 10px;
+}
+.contact .texte{
+  width: 730px;
+  height: 200px;
+  outline: none;
+  resize: none;
+  margin-bottom: 10px;
 }
 
 
+.contact .bott{
+  display: block;
+  text-align: center;
+  height: 20px;
+}
+.bott .bot{
+  background: #233451;
+  border:  none;
+  height: 40px;
+  width: 90px;
+  color: white;
+}
